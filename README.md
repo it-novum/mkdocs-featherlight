@@ -1,5 +1,7 @@
 # Featherlight Plugin for MkDocs
 
+![Lightbox preview](/example.gif)
+
 Simple lightbox plugin for MkDocs. This plugin use the jQuery plugin [featherlight](https://github.com/noelboss/featherlight/) and is mostly based on the work of [https://github.com/mementum/lightgallery-markdown](https://github.com/mementum/lightgallery-markdown)
 
 
@@ -14,7 +16,7 @@ This plugin simply converts all images into lightboxes
 
 ## Setup
 ```
-pip3 install https://github.com/it-novum/mkdocs-featherlight.git
+pip3 install -e git+https://github.com/it-novum/mkdocs-featherlight.git
 ```
 
 ### Alternative setup
