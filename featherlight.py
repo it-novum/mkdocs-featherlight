@@ -2,7 +2,7 @@ from markdown import Extension
 from markdown.treeprocessors import Treeprocessor
 #https://github.com/mkdocs/mkdocs/issues/2892
 #from markdown.util import etree
-from lxml import etree
+from xml import etree
 import re
 
 
