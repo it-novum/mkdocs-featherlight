@@ -1,6 +1,8 @@
 from markdown import Extension
 from markdown.treeprocessors import Treeprocessor
-from markdown.util import etree
+#https://github.com/mkdocs/mkdocs/issues/2892
+#from markdown.util import etree
+from lxml import etree
 import re
 
 
