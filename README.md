@@ -1,3 +1,9 @@
+# DEAD
+This project does not work with current mkdocs / markdown versions and has no active development anymore.
+Please take a look at https://github.com/Blueswen/mkdocs-glightbox which is a good replacement.
+
+---
+
 # Featherlight Plugin for MkDocs
 
 ![Lightbox preview](/example.gif)
