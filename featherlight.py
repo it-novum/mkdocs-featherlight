@@ -32,7 +32,7 @@ class ImagesTreeprocessor(Treeprocessor):
 
 class FeatherlightExtension(Extension):
     def extendMarkdown(self, md):
-        md.treeprocessors.add("featherlight", ImagesTreeprocessor(md), "_end")
+        md.treeprocessors.register("featherlight", ImagesTreeprocessor(md), "_end")
 
 
 def makeExtension(*args, **kwargs):
